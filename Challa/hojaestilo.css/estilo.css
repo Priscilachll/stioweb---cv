@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+:root 
+{
+    --color-blue-medium: #8fe2e4;
+    --color-purple: #632ce7;
+    --color-gray: #ccc;
+    --color-gray-medium: #f8f9fa;
+    --color-yellow: #fac32c;
+}
+
+.navbar-main :active
+{
+    text-decoration: underline wavy var(--color-purple);
+    text-underline-offset: ppx;
+}
+
+
+body 
+{   
+    background-image: linear-gradient( to bottom, #FDF7EE, #C4A4D5);
+}
+
+h1
+{
+    color: #632ce7;
+}
+
+.grid {
+    width: 30%;
+    height: 30%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 5%;
+
+    display: grid;
+
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 10%;
+}
+
+.caja1 {
+    border: 1px solid #927ec7;
+}
+
+/* Estilos adicionales para las cajas */
+.caja2 {
+    border: 1px solid #ff0000;
+}
+
+.caja3 {
+    border: 1px solid #00ff00;
+}
+
+.caja4 {
+    border: 1px solid #927ec7;
+}
+.caja5 {
+    border: 1px solid #ff0000;
+}
+.caja6{
+    border: 1px solid #00ff00;
+}
+/* ... y así sucesivamente para cada caja */
+
+.caja1 img {
+    width: 100%;
+    height: auto;
+}
+
+.caja2 img {
+    width: 100%;
+    height: auto;
+}
+
+.caja3 img {
+    width: 100%;
+    height: auto;
+}
+
+.caja4 img {
+    width: 100%;
+    height: auto;
+}
+
+.caja5 img {
+    width: 100%;
+    height: auto;
+}
+
+.caja6 img {
+    width: 100%;
+    height: 30%;
+}
+
+/*------home----------*/
+.caja {
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    height: 100vh;
+}
+
+.caja h1 {
+    margin: auto;
+}
+
+h1
+{   
+    text-align: center;
+    margin-top: 50%;
+}
+
+.caja img {
+    max-width: 200px;
+    max-height: 200px;
+    margin: auto;
+}
+
+/*---*/
+section
+{
+    height: 100vh;
+}
+h2
+{
+    margin-top: 30%;
+    text-align: center;
+}
+
+p
+{
+    margin: o auto;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+
+
+
+/*formulario*/
+form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #a495cc; 
+    margin-bottom: 5%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    color: #a495cc; 
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #a495cc; 
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: #a495cc;
+}
+
+input[type="submit"] {
+    background-color: #a495cc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #a495cc; 
+}
+
+
+
+
+/******* ----------------------*/
+.contenedor
+{
+    margin-top: 15%;
+    height: 100vh;
+}
+
+
+footer
+{
+    background-color: black;
+    width: 100%;
+    height: 10%;
+    color: white;
+    justify-content: center;
+    padding: 2rem;
+}
